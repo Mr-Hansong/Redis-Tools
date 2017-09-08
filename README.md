@@ -7,10 +7,10 @@
 使用需求:
 -----------
 
-###Python requirements:<br/>  
-TabTabargparse==1.4.0<br/>  
-TabTabprogressbar==2.3
-TabTabredis==2.10.5
+### Python requirements:<br/>  
+    argparse==1.4.0
+    progressbar==2.3
+    redis==2.10.5
 
 使用介绍：
 -----------
