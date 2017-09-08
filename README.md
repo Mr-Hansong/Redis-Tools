@@ -16,8 +16,9 @@
 <br/> 
 
 ### 使用介绍：
-    scan_rediskey.py [-h] -T ['zombiekey','largekey','nottl'] -H IP -P Port [-D Days] [-S KeySize] [-M ModeType]<br/> 
-    help :
+    scan_rediskey.py [-h] -T ['zombiekey','largekey','nottl'] -H IP -P Port [-D Days] [-S KeySize] [-M ModeType]
+    
+    ##### help :
     -T：操作类型，可选zombiekey，largekey，nottl.
     -H：Host，支持域名，例如：aws elasticache endpoint.
     -P：端口，校验使用6开头4位端口.
@@ -25,13 +26,13 @@
     -S：key大小，large key选项，单位：KB，默认：1024KB.
     -M：连接类型，large key选项，可选local，remote，默认：local.
   
-  例如:
-  扫描30天僵尸key:
-    python scan_rediskey.py -T zombiekey -H 127.0.0.1 -P 6379 -D 30
-  扫描large key(大于512KB):
-    python scan_rediskey.py -T largekey -H 127.0.0.1 -P 6379 -S 512 [-M ModeType]
-  扫描没有设置过期时间的key:
-    python scan_rediskey.py -T nottl -H 127.0.0.1 -P 6379
+    ##### 例如:
+    ###### 扫描30天僵尸key:
+        python scan_rediskey.py -T zombiekey -H 127.0.0.1 -P 6379 -D 30
+    ###### 扫描large key(大于512KB):
+        python scan_rediskey.py -T largekey -H 127.0.0.1 -P 6379 -S 512 [-M ModeType]
+    ###### 扫描没有设置过期时间的key:
+        python scan_rediskey.py -T nottl -H 127.0.0.1 -P 6379
 
 
 
