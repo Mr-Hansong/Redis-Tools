@@ -7,8 +7,8 @@
 使用需求:
 -----------
 
-Python requirements:
-TabTabargparse==1.4.0
+Python requirements:<br />  
+TabTabargparse==1.4.0<br />  
 TabTabprogressbar==2.3
 TabTabredis==2.10.5
 
