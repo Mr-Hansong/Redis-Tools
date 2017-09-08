@@ -10,6 +10,10 @@
     argparse==1.4.0
     progressbar==2.3
     redis==2.10.5
+<br/> 
+#### Redis Client:
+    redis-cli >= 2.8 in /usr/bin/
+<br/> 
 
 使用介绍：
 -----------
