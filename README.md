@@ -18,12 +18,12 @@
 ### 使用介绍：
     scan_rediskey.py [-h] -T ['zombiekey','largekey','nottl'] -H IP -P Port [-D Days] [-S KeySize] [-M ModeType]\<br>
     help :
-    -T  操作类型   可选'zombiekey','largekey','nottl'.\<br>
-    -H  Host      支持域名，例如aws elasticache endpoint.\<br>
-    -P  端口      校验使用6开头4位端口.\<br>
-    -D  空闲时间  zombie key选项,单位:天,默认20天.\<br>
-    -S  key大小   large key选项,单位:KB,默认1024KB.\<br>
-    -M  连接类型  large key选项,可选local,remote,默认local.\<br>
+    -T  操作类型\t可选'zombiekey','largekey','nottl'.
+    -H  Host\t支持域名，例如aws elasticache endpoint.
+    -P  端口        校验使用6开头4位端口.
+    -D  空闲时间     zombie key选项,单位:天,默认20天.
+    -S  key大小      large key选项,单位:KB,默认1024KB.
+    -M  连接类型  large key选项,可选local,remote,默认local.
   
   例如:
   扫描30天僵尸key:
@@ -36,5 +36,4 @@
 
 
 ### 参考：
------------
   https://github.com/sripathikrishnan/redis-rdb-tools
