@@ -39,8 +39,9 @@
 ```
 <br/> 
 
-## 操作建议
+## 建议
     如果需要扫描多种key，建议首先扫描zombie key。因为当扫描nottl key相当于对redis中所有key进行了一次命令操作，会导致扫描zombie key的结果为空。
+<br/> 
 <br/> 
 
 ## 结果
