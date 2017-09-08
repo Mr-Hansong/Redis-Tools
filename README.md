@@ -1,4 +1,5 @@
-#使用前必读
+使用前必读
+======
 
 此脚本可用于扫描redis zombie key,large key及没有设置过期时间的key，通过type可选择.
 
