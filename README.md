@@ -10,6 +10,7 @@
     redis==2.10.5
 #### Redis requirements :
     redis-cli >= 2.8 in /usr/bin/
+<br/> 
 
 ## 使用介绍：
     scan_rediskey.py [-h] -T ['zombiekey','largekey','nottl'] -H IP -P Port [-D Days] [-S KeySize] [-M ModeType]
@@ -34,6 +35,7 @@
 ```
     python scan_rediskey.py -T nottl -H 127.0.0.1 -P 6379
 ```
+<br/> 
 
 ## 参考：
   https://github.com/sripathikrishnan/redis-rdb-tools
