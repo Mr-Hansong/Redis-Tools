@@ -8,9 +8,9 @@
 -----------
 
 Python requirements:
-    argparse==1.4.0
-    progressbar==2.3
-    redis==2.10.5
+TabTabargparse==1.4.0
+TabTabprogressbar==2.3
+TabTabredis==2.10.5
 
 使用介绍：
 -----------
