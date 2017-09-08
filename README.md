@@ -10,7 +10,6 @@
     redis==2.10.5
 #### Redis requirements :
     redis-cli >= 2.8 in /usr/bin/
-<br/> 
 
 ### 使用介绍：
     scan_rediskey.py [-h] -T ['zombiekey','largekey','nottl'] -H IP -P Port [-D Days] [-S KeySize] [-M ModeType]
