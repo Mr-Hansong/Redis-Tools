@@ -39,5 +39,12 @@
 ```
 <br/> 
 
+## 结果
+    在脚本执行目录生成以操作类型开头的txt文件.
+    例如：
+    zombiekey_127.0.0.1_6379.txt
+    largekey_127.0.0.1_6379.txt
+    nottl_127.0.0.1_6379.txt
+
 ## 参考：
   https://github.com/sripathikrishnan/redis-rdb-tools
