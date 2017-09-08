@@ -43,7 +43,6 @@
 如果需要扫描多种key，建议首先扫描zombie key。因为当扫描nottl key相当于对redis中所有key进行了一次命令操作，会导致扫描zombie key的结果为空。
 <br/> 
 <br/> 
-<br/> 
 
 ## 结果
 脚本执行后，会在脚本目录生成格式以操作类型开头的txt文件。如果扫描largekey会在脚本目录生成RDB开头的txt临时文件，如果选择remote的方式扫描，则会在脚本目录多生成一个.rdb文件。
