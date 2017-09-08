@@ -6,12 +6,12 @@
 <br/> 
 ### 使用需求:
 
-#### Python requirements: 
+#### Python requirements : 
     argparse==1.4.0
     progressbar==2.3
     redis==2.10.5
-<br/> 
-#### Redis Client:
+
+#### Redis requirements :
     redis-cli >= 2.8 in /usr/bin/
 <br/> 
 
