@@ -2,12 +2,11 @@
 ===========
 
 此脚本可用于扫描redis zombie key,large key及没有设置过期时间的key，通过type可选择.
-
-
+<br/> 
+<br/> 
 ### 使用需求:
------------
 
-#### Python requirements:<br/>  
+#### Python requirements: 
     argparse==1.4.0
     progressbar==2.3
     redis==2.10.5
