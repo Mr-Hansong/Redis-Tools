@@ -10,7 +10,6 @@
 # *Required :
 # *   pip install redis argparse progressbar
 #
-#                                   Author: Yuhansong
 #                                       2016.08.04 
 '''
 
